@@ -1,0 +1,109 @@
+*{
+    font-family: 'Monda', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(purple, BlueViolet, Plum);
+}
+
+.container{
+    display: flex;
+}
+
+.left-menu{
+    position: flex;
+    box-sizing: border-box;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+    background-color: rgb(103, 145, 221);
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+    color: crimson;
+}
+h1{
+    transition-delay: 0.25s;
+    transition-duration: 1.5s;
+}
+
+h1:hover{
+    color: rgb(251, 255, 0);
+}
+.top-left-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+
+.profile-photo{
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(155, 65, 177);
+    color: rgb(231, 40, 145);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1rem;
+    z-index: 1;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0.25s;
+    
+}
+header:hover{
+    background-color: rgb(199, 119, 199);
+
+}
+
+.main{
+    position: static;
+    left: 25%;
+    margin: 5rem;
+    color: linear-gradient(purple, BlueViolet, Plum);
+}
+
+a{
+    text-decoration: none;
+    transition-duration: 1s ;
+    transition-delay: 0.25s;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(134, 187, 230);
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 7rem;
+    max-width: 75vh;
+}
+
+.section.section-content{
+    min-width: 90vh;
+    
+
+}
