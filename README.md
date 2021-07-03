@@ -1,2 +1,3 @@
 # Projeto-Web-IC
-Projeto Web Introdução à Computação
+Projeto Web Introdução à Computação 
+Aluno Theo Perman
